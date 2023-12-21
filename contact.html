@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+        <a href="index.html" class="logo">
+            Comfort <span>House</span></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="index.html" class="translatable" data-translation-key="home">Home</a></li>
+            </ul>
+            <div class="flags">
+                <a href="contact.html"><img src="img/english.jpg" alt=""></a>
+                <a href="#" onclick="switchLanguage('ge', event)"><img src="img/georgian flag.png" alt=""></a>
+            </div>
+        </header>
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title translatable" data-translation-key="touch"">Let's get in touch</h3>
+          <p class="text translatable" data-translation-key="contactvia">
+            You Can Contact Us Via Email,Phone,Direct Meeting,Or Any of the Social Medias Listed Below This Text,Our Staff Will Respond You As Soon As It Is Possible.
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <p>Vakhtang Gorgasali st. 111 Batumi, Georgia</p>
+            </div>
+            <div class="information">
+              <p>lukafartenadze2004@gmail.com</p>
+            </div>
+            <div class="information">
+              <p>+995 557 10 00 20</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p class="translatable" data-translation-key="connect">Connect with us :</p>
+            <div class="social-icons">
+              <a  href="https://www.facebook.com/luka.fartenadze.1/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.instagram.com/fartenadzeluka/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="title translatable" data-translation-key="contactus">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input"/>
+              <label for="" class="translatable" data-translation-key="username">Username</label>
+              <span class="translatable" data-translation-key="username">Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input"/>
+              <label for="" class="translatable" data-translation-key="email">Email</label>
+              <span class="translatable" data-translation-key="email">Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input"/>
+              <label for="" class="translatable" data-translation-key="phone">Phone</label>
+              <span class="translatable" data-translation-key="phone">Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="" class="translatable" data-translation-key="message">Message</label>
+              <span class="translatable" data-translation-key="message">Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn translatable" data-translation-key="send"/>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="contact.js"></script>
+  </body>
+</html>
